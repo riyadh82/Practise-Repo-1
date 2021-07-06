@@ -5,6 +5,9 @@ body {
 h1 {
     font-size: 50px;
 }
+h2 {
+    font-size: 45px;
+}
 .orange {
     color: orange;
 }
@@ -43,5 +46,39 @@ h1 {
 .half-width-2 img {
     width: 87%;
 
+}
+.last-container {
+    display: flex;
+}
+.half {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+
+
+}
+.ex {
+    color: orange;
+}
+.section-3 {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 120px;
+}
+#f1 {
+    border-left: 10px solid rgba(248, 97, 27, 0.966);
+    
+}
+#f2 {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
 
